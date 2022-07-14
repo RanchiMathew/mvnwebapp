@@ -7,6 +7,11 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>mvnwebapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
+	
+   <properties>
+    <failOnMissingWebXml>false</failOnMissingWebXml>   
+   </properties>
+	
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -21,9 +26,6 @@
     <version>3.0.1</version>
 	</dependency>
     
-   <properties>
-    <failOnMissingWebXml>false</failOnMissingWebXml>   
-   </properties>	  
     
   </dependencies>
   <build>
