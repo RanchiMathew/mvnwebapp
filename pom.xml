@@ -21,6 +21,9 @@
     <version>3.0.1</version>
 	</dependency>
     
+   <properties>
+    <failOnMissingWebXml>false</failOnMissingWebXml>   
+   </properties>	  
     
   </dependencies>
   <build>
